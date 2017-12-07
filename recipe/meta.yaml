@@ -20,7 +20,7 @@ build:
     - django-admin = django.core.management:execute_from_command_line
 
 requirements:
-  build:
+  host:
     - python
     - pip
   run:
