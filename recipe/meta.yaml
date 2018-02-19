@@ -8,9 +8,13 @@ source:
   url: https://pypi.io/packages/source/D/Django/Django-{{ version }}.tar.gz
   sha256: e1cc1cd6b658aa4e052f5f2b148bfda08091d7c3558529708342e37e4e33f72c
   patches:
+  # Commenting the patches below, hoping that the new pythons will have:
+  # https://github.com/AnacondaRecipes/python-feedstock/commit/68802d19
+  # See: https://github.com/ContinuumIO/anaconda-issues/issues/1716
+  # patches:
     # Hard-code gdal and geos' paths to the corresponding conda packages.
-    - libgdal.patch
-    - libgeos.patch
+    # - libgdal.patch
+    # - libgeos.patch
 
 build:
   number: 0
