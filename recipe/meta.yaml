@@ -12,9 +12,6 @@ source:
   # https://github.com/AnacondaRecipes/python-feedstock/commit/68802d19
   # See: https://github.com/ContinuumIO/anaconda-issues/issues/1716
   # patches:
-    # Hard-code gdal and geos' paths to the corresponding conda packages.
-    # - libgdal.patch
-    # - libgeos.patch
 
 build:
   number: 0
