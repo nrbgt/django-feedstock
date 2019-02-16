@@ -1,4 +1,4 @@
-{% set version = "2.1.5" %}
+{% set version = "2.1.7" %}
 
 package:
   name: django
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/D/Django/Django-{{ version }}.tar.gz
-  sha256: d6393918da830530a9516bbbcbf7f1214c3d733738779f06b0f649f49cc698c3
+  sha256: 939652e9d34d7d53d74d5d8ef82a19e5f8bb2de75618f7e5360691b6e9667963
   patches:
   # Commenting the patches below, hoping that the new pythons will have:
   # https://github.com/AnacondaRecipes/python-feedstock/commit/68802d19
