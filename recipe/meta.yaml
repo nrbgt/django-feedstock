@@ -26,6 +26,7 @@ requirements:
   run:
     - python
     - pytz
+    - sqlparse
 
 test:
   requires:
