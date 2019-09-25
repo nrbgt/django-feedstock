@@ -14,7 +14,7 @@ source:
   # patches:
 
 build:
-  number: 0
+  number: 1
   skip: True  # [py2k]
   script: python -m pip install --no-deps --ignore-installed .
   entry_points:
@@ -27,6 +27,7 @@ requirements:
   run:
     - python
     - pytz
+    - sqlparse
 
 test:
   requires:
